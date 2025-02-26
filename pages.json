@@ -1,0 +1,73 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "今天吃什么-首页"
+			}
+		},
+		{
+			"path" : "pages/map/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "今天吃什么-地图"
+			}
+		},
+		{
+			"path" : "pages/collect/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "今天吃什么-收藏"
+			}
+		},
+		{
+			"path" : "pages/user/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "今天吃什么-我的"
+			}
+		}
+	],
+	"tabBar": {
+		"backgroundColor": "#FFFFFF",
+		"color": "#7A7E83",
+		"selectedColor": "#ED7470",
+		"height": "60px",
+		"fontSize": "12px",
+		"iconWidth": "24px",
+		"spacing": "2px",
+		"borderStyle": "white",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/home/index",
+				"iconPath": "/static/icon/home.svg",
+				"selectedIconPath": "/static/icon/home-select.svg"
+			},
+			{
+				"text": "地图",
+				"pagePath": "pages/map/index",
+				"iconPath": "/static/icon/location.svg",
+				"selectedIconPath": "/static/icon/location-select.svg"
+			},
+			{
+				"text": "收藏",
+				"pagePath": "pages/collect/index",
+				"iconPath": "/static/icon/collect.svg",
+				"selectedIconPath": "/static/icon/collect-select.svg"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/user/index",
+				"iconPath": "/static/icon/user.svg",
+				"selectedIconPath": "/static/icon/user-select.svg"
+			}
+		]
+	},
+	"globalStyle": {
+		"backgroundColor": "#FAFAFA",
+		"enablePullDownRefresh": true,
+		"titleNView": false
+	},
+	"uniIdRouter": {}
+}
